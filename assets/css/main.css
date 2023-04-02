@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #313163;
+  --color-primary: #B4D2E7;
   --color-secondary: #161718;
 }
 
@@ -1200,7 +1200,7 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 38px;
   font-weight: 700;
-  color: #fff;
+  color: #F8F8F8;
   font-family: var(--font-secondary);
 }
 
