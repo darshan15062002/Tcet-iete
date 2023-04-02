@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
+  --color-primary: #313163;
   --color-secondary: #161718;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: #6060c4;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5bd9a9;
+  background: #4d4dab;
   margin: 4px 10px;
 }
 
@@ -162,7 +162,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: #4d4dab;
   color: #fff;
 }
 
@@ -1147,6 +1147,7 @@ h6 {
   padding: 10px 12px;
 }
 
+
 .contact .php-email-form button[type=submit] {
   background: var(--color-primary);
   border: 0;
@@ -1174,12 +1175,25 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
+ 
   width: 100%;
-  min-height: 30vh;
+  min-height: 100vh;
   background: #000;
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
+  background: url('../img/bgImg.jpeg');
+ 
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center top;
+
+ 
+}
+.hero::after{
+  height: 100%;
+  width: 100%;
+    background: #000;
 }
 
 .hero h2 {
@@ -1229,7 +1243,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: #4d4dab;
 }
 
 @media (max-width: 768px) {
