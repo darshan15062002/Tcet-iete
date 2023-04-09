@@ -520,7 +520,7 @@ h6 {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     letter-spacing: 1px;
     white-space: nowrap;
     transition: 0.3s;
@@ -556,7 +556,7 @@ h6 {
   }
 
   .mobile-nav-show {
-    color: #fff;
+    color:black;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -583,6 +583,10 @@ h6 {
 
   .mobile-nav-active .navbar {
     right: 0;
+  }
+  .text-dark{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important;
   }
 
   .mobile-nav-active .navbar:before {
